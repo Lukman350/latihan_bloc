@@ -1,18 +1,20 @@
 import 'package:flutter/material.dart';
 
-import 'belajar_bloclistener.dart';
+// import 'belajar_blocprovider.dart';
+// import 'main_blocprovider.dart';
+import 'mainbloc_multiprovider.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MainMultiProvider());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+// class MainApp extends StatelessWidget {
+//   const MainApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: BelajarBlocListener(),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return const MaterialApp(
+//       home: BelajarBlocProvider(),
+//     );
+//   }
+// }
